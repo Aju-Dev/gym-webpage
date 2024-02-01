@@ -1,0 +1,209 @@
+*{
+    font-family: century gothic;
+}
+html{
+    scroll-behavior: smooth;
+}
+.bg-black{
+    background-color: #000000;
+    background-image: linear-gradient(316deg, #000000 80%, #4224194e 100%);
+}
+.header-section{
+    background-color: #000000;
+    background-image: linear-gradient(316deg, #000000 80%, #4224194e 100%);
+  
+}
+ul li a{
+margin-left: 60px;
+transition: .6s;
+}
+.nav-link:hover{
+    opacity: .4;
+}
+body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.769),rgba(0,0,0,0.5)), url('pexels-tima-miroshnichenko-5327476.jpg');
+    height: auto;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.cont-section img{
+    border: 1px solid rgba(0, 255, 255, 0.821);
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    transition: 1s;
+    box-shadow: 0 0 50px  rgba(0, 255, 255, 0.394);
+    object-fit: fill;
+    animation: float 3s ease-out infinite;
+}
+@keyframes float {
+    50%{
+        transform: translateX(12px);
+    }
+}
+.cont-section img:hover{
+    box-shadow: 0 0 50px  rgba(255, 0, 0, 0.394);
+    border: 1px solid rgba(255, 0, 0, 0.646);
+
+}
+.cont-section h4{
+    color: white;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cont-section h1{
+    color: red;
+    font-size: 60px;
+    letter-spacing: 1px;
+}
+.cont-section .ind{
+    font-size:21px;
+    letter-spacing: 1px;
+}
+.cont-section .add{
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+.contact-box .form-control{
+    height: 30px;
+    width: 650px ;
+    background: none;
+    color: yellow;
+}
+
+.contact-box textarea.form-control{
+    height: 80px;
+    background: none;
+    color: yellow;
+}
+.address-box p{
+    font-size: 21px;
+    letter-spacing: 2px;
+}
+.cont-section h5{
+    color: aqua;
+    margin-left: 7%;
+    font-size: 23px;
+    letter-spacing: 1px;
+    font-family: monospace;
+}
+.cont-section span{
+    font-size: 23px;
+    color: red;
+    letter-spacing: 2px;
+    filter: drop-shadow(0 0 5px red) drop-shadow(0 0 40px red);
+}
+.cont-section h3{
+    color: white;
+    letter-spacing: 2px;
+}
+.qutn-section{
+    background-color:rgba(128, 128, 128, 0.154);
+}
+.qutn-section h3{
+    color:#01fe87;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+}
+.qutn-section p{
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    transition: 1s;
+    text-align: justify;
+}
+.qutn-section h1{
+    color: orange;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+}
+.qutn-section .H1,.H3{
+    margin-left: 43%;
+}
+.bttn{
+    margin-left: 41%;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 20px;
+    position: relative;
+    overflow: hidden;
+    letter-spacing: 1px;
+}
+.bttn::before{
+    content: '';
+    position: absolute;
+    top: -10px;
+    bottom: -10px;
+    left: -30px;
+    width: 10px;
+    rotate: 35deg;
+    background-color: #fff;
+}
+.bttn:hover::before{
+    left: calc(100% + 30px);
+    transition: left 500ms;
+}
+
+.btn3{
+    margin-left: 2%;
+    color:red;
+    font-size: 30px;
+    opacity: .8;
+}
+.btn3:hover{
+    transition: .6s;
+    color: rgb(0, 255, 0);
+    opacity: 1;
+}
+.arrow{
+    margin-top: 200px;
+}
+.icons > a{
+    font-size: 20px;
+    padding: 4%;
+}
+#wht{
+    color:orange;
+}
+#wht:hover{
+    color: rgb(38, 151, 38);
+}
+#git{
+    color:orange;
+}
+#git:hover{
+    color: white;
+
+}
+#insta{
+   
+    color: orange;
+}
+#insta:hover{
+    color: rgb(185, 35, 150);
+}
+#twt{
+    color: orange;
+}
+#twt:hover{
+    color: white;
+}
+.last{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-left: 102%;
+    color: rgba(192, 192, 192, 0.773);
+    cursor: pointer;
+}
+.map{
+    opacity: .7;
+}
+.social h2{
+    color: red;
+    letter-spacing: 1px;
+}

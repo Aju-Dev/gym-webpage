@@ -1,0 +1,216 @@
+*{
+    font-family: century gothic;
+}
+.bg-black{
+    background-color: #000000;
+    background-image: linear-gradient(316deg, #000000 80%, #4224194e 100%);
+}
+body{
+    background-color: #000000;
+    background-image: linear-gradient(316deg, #000000 80%, #4224194e 100%);
+  
+}
+.header-section{
+    background-color: #000000;
+    background-image: linear-gradient(316deg, #000000 80%, #4224194e 100%);
+}
+
+ul li a{
+margin-left: 60px;
+transition: .6s;
+}
+.nav-link:hover{
+    opacity: .4;
+}
+.btn{
+    color: white;
+    border: 1px solid white ;
+    border-radius: 25px;
+    padding: 10px 5px;
+    width: 15%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: inset 0 0 0 orange;
+    transition: .6s ease-out;
+    font-weight: 400;
+}
+.btn:hover{
+    border: 1px solid orange;
+    box-shadow: inset 180px 0 0 orange;
+}
+.but{
+    position: relative;
+    overflow: hidden;
+    background: transparent;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white ;
+    padding: 12px 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: .6s ease-out;
+    font-weight: 400;
+}
+.but::before{
+    content: '';
+    position: absolute;
+    top: -10px;
+    bottom: -10px;
+    left: -30px;
+    width: 10px;
+    rotate: 35deg;
+    background-color: #fff;
+}
+.but:hover::before{
+    left: calc(100% + 30px);
+    transition: left 500ms;
+}
+.abt{
+    color: orange;
+    font-weight: bolder;
+    letter-spacing: 6px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contact-section{
+    background-image: url("desktop-wallpaper-portrait-dark-bodybuilding-art-light-blackandwhite-body-building.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.lastb{
+    color: white;
+    background: none;
+    border-radius: 25px;
+    padding: 10px 5px;
+    width: 23%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: inset 0 0 0 orange;
+    transition: .6s ease-out;
+    font-weight: 400;
+    animation-name: btnled;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+@keyframes btnled{
+    0% {border:2px solid rgb(0, 255, 119); }
+    10%{border:2px solid orange;}
+    15%{border:2px solid greenyellow;}
+    20%{border:2px solid blueviolet;}
+    25%{border:2px solid cadetblue;}
+    30%{border:2px solid chocolate;}
+    35%{border:2px solid aqua;}
+    40%{border:2px solid rgb(0, 60, 255);}
+    45%{border:2px solid chartreuse;}
+    50%{border:2px solid brown;}
+    55%{border:2px solid rgb(183, 0, 255);}
+    60%{border:2px solid crimson;}
+    65%{border:2px solid cornflowerblue;}
+    70%{border:2px solid hotpink;}
+    75%{border:2px solid rgb(4, 255, 0);}
+    80%{border:2px solid cyan;}
+    85%{border:2px solid #5F0F40;}
+    90%{border:2px solid #701e2d;}
+    95%{border:2px solid #49108B;}
+    100%{border:2px solid #FF9800;}
+
+}
+.lastb:hover{
+    color: black;
+    box-shadow: inset 180px 0 0 rgba(0, 255, 0, 0.806);
+
+}
+.form-group{
+    background: none;
+    width: 60%;
+    height: 40px;
+
+}
+.form-group2{
+    width: 60%;
+}
+.contact-box .form-control{
+    height: 30px;
+    background: none;
+    color: yellow;
+}
+.contact-box textarea.form-control{
+    height: 120px;
+    background: none;
+    color: yellow;
+}
+.address-box p{
+    font-size: 21px;
+    letter-spacing: 2px;
+}
+.foot{
+    letter-spacing: 2px;
+    color: rgba(255, 255, 255, 0.459);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#head{
+    background-color: #ff1493;
+    background-image: linear-gradient(319deg, #ff1493 0%, #0000ff 37%, #ff8c00 100%);
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 4px;
+}
+span{
+    background-color: #ba2d0b;
+    background-image: linear-gradient(319deg, #ba2d0b 15%, #fe7f2d 37%, #ffbf46 100%);
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btns{
+    margin-left: 90%;
+    color:red;
+    font-size: 30px;
+    opacity: .8;
+}
+.btns:hover{
+    transition: .6s;
+    color: rgb(0, 255, 0);
+    opacity: 1;
+}
+
+.icons > a{
+    font-size: 20px;
+    padding: 4%;
+}
+#wht{
+    color:orange;
+}
+#wht:hover{
+    color: rgb(38, 151, 38);
+}
+#git{
+    color:orange;
+}
+#git:hover{
+    color: white;
+
+}
+#insta{
+   
+    color: orange;
+}
+#insta:hover{
+    color: rgb(185, 35, 150);
+}
+#twt{
+    color: orange;
+}
+#twt:hover{
+    color: white;
+}

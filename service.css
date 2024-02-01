@@ -1,0 +1,151 @@
+*{
+    font-family: century gothic;
+}
+.header-section{
+    background-color: #000000;
+    background-image: linear-gradient(316deg, #000000 80%, #4224194e 100%);
+}
+
+body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.732),rgba(0, 0, 0, 0.278)), url("photo-1605296867304-46d5465a13f1.jpg");
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  
+}
+.bg-black{
+    background-color: #000000;
+    background-image: linear-gradient(316deg, #000000 80%, #4224194e 100%);
+}
+
+ul li a{
+margin-left: 60px;
+transition: .6s;
+}
+.nav-link:hover{
+    opacity: .4;
+}
+.abt{
+    color: orange;
+    letter-spacing: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.abt span{
+    letter-spacing: 4px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.card{
+    background: none;
+    color: white;
+}
+.Services-section img{
+    animation-name: timer;
+    border-radius: 25px;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+
+}
+@keyframes timer{
+    0% {border-bottom:1px solid rgb(0, 255, 119); }
+    10%{border-bottom:1px solid orange;}
+    15%{border-bottom:1px solid greenyellow;}
+    20%{border-bottom:1px solid blueviolet;}
+    25%{border-bottom:1px solid cadetblue;}
+    30%{border-bottom:1px solid chocolate;}
+    35%{border-bottom:1px solid aqua;}
+    40%{border-bottom:1px solid rgb(0, 60, 255);}
+    45%{border-bottom:1px solid chartreuse;}
+    50%{border-bottom:1px solid brown;}
+    55%{border-bottom:1px solid rgb(183, 0, 255);}
+    60%{border-bottom:1px solid crimson;}
+    65%{border-bottom:1px solid cornflowerblue;}
+    70%{border-bottom:1px solid hotpink;}
+    75%{border-bottom:1px solid rgb(4, 255, 0);}
+    80%{border-bottom:1px solid cyan;}
+    85%{border-bottom:1px solid #5F0F40;}
+    90%{border-bottom:1px solid #701e2d;}
+    95%{border-bottom:1px solid #49108B;}
+    100%{border-bottom:1px solid #FF9800;}
+
+}
+
+.Services-section h3{
+    color: greenyellow;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.Services-section p{
+    letter-spacing: 2px;
+    text-align: justify;
+    transition: .9s ease;
+}
+.Services-section p:hover{
+    color: aqua;
+}
+.btn{
+    margin-left: 90%;
+    color:red;
+    font-size: 30px;
+    opacity: .8;
+}
+.btn:hover{
+    transition: .6s;
+    color: rgb(0, 255, 0);
+    opacity: 1;
+}
+.btn1{
+    margin-left: 2%;
+    color:red;
+    font-size: 30px;
+    opacity: .8;
+}
+.btn1:hover{
+    transition: .6s;
+    color: rgb(0, 255, 0);
+    opacity: 1;
+}
+
+.foot{
+    letter-spacing: 5px;
+    color: rgba(255, 255, 255, 0.459);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.icons > a{
+    font-size: 20px;
+    padding: 4%;
+}
+#wht{
+    color:orange;
+}
+#wht:hover{
+    color: rgb(38, 151, 38);
+}
+#git{
+    color:orange;
+}
+#git:hover{
+    color: white;
+
+}
+#insta{
+   
+    color: orange;
+}
+#insta:hover{
+    color: rgb(185, 35, 150);
+}
+#twt{
+    color: orange;
+}
+#twt:hover{
+    color: white;
+}
+
+
